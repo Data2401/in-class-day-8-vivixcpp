@@ -52,6 +52,9 @@ str(b)
 # returns only elements of a greater than 7
 b$a[b$a > 7]
 
+# same but also kinda the worst
+b[[1]][b[["a"]] > 7]
+
 ```
 
 Let `x <- list(a=5:10, c="Hello", d="AA")`, write an R statement to add a new item z = "NewItem" to the list x.
